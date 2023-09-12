@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(52, 67, 117);
+    display: grid;
+    place-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 5px;
+    color: azure;
+    font: 1.6em sans-serif;
+  }
+  
+  #start_menu {
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    font-size: 1.2em;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(229, 235, 238);
+  }
+  
+  .name_inner_set {
+    margin: 5px;
+    display: grid;
+    place-items: center;
+  }
+  
+  #dim_set {
+    padding: 5px;
+    display: grid;
+    place-items: center;
+  }
+  
+  #start_button {
+    margin-top: 20px;
+  }
+  
+  #content {
+    padding: 20px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  #main_grid {
+    position: sticky;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6,1fr); /* 1fr is the size and 6 nub of col and row*/
+    background-color: #99c2e4;
+    padding: 20px;
+    margin-inline: 100px;
+  }
+  
+  #bench_player_one {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    background-color: #99c2e4;
+    padding: 10px;
+  }
+  
+  #bench_player_two {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    background-color: #99c2e4;
+    padding: 10px;
+  }
+  
+  .cellL,.cellR,.cell2 {
+    display: grid;
+    place-items: center;
+    width: 80px;
+    height: 80px;
+    background-color: azure;
+    border: solid 1px rgb(96, 93, 93);
+  }
+
+  .border{
+    background-color: red;
+  }
+

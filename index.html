@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/index.css">
+</head>
+
+<body>
+  <h1 id="current_player">Boop!</h1>
+
+  <section id="start_menu">
+
+    <div class="name_inner_set">
+      <span>Player No. One</span>
+      <input id="p1" value="player one">
+    </div>
+
+    <div class="name_inner_set">
+      <span>Player No. Two</span>
+      <input id="p2" value="player two">
+    </div>
+
+    
+
+    <div id="dim_set">
+      <span>Enter The dimention of the game</span>
+      <input type="number" id="dim" value="6">
+    </div>
+
+    <div id="dim_set">
+      <span>Enter The number of Kittens for each player</span>
+      <input type="number" id="kitty" value="8">
+    </div>
+
+    <div id="dim_set">
+      <span>Enter The number of points required to win</span>
+      <input type="number" id="score" value="5">
+    </div>
+
+    <div id="pre_result">
+      <div>last game results</div>
+      <span id="inner_pre_result"></span>
+    </div>
+
+    
+    
+    <button id="start_button">PLAY</button>
+    
+
+  </section>
+
+  <section id="content" style="display: none;">
+
+    <div id="bench_player_one">
+        <span class="pnameone" style="text-align: center; ">name</span>
+        <span class="POscore" style="text-align: center; " >0</span>
+        
+    </div>
+    
+    <div id="main_grid"></div>
+
+    <div id="bench_player_two">
+        <span class="pnametwo" style="text-align: center; ">name</span>
+        <span class="PTscore" style="text-align: center;" >0</span>
+    </div>
+  </section>
+  <script src="index.js"></script>
+</body>
+
+</html>
